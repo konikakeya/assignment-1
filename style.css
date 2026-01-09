@@ -132,12 +132,6 @@ main {
   justify-content: center;
   gap: 16px;
 }
-.banner-btn button{
-  display: inline-flex;
-  align-items: center;
-  text-align: center;
-  gap: 5px;
-}
 #see-through{
   border: 1px solid white;
   background: transparent;
@@ -145,10 +139,18 @@ main {
 #see-through:hover{
    background-color: #2ecc71;
 }
+.banner-btn button{
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+
 
 
 #note-section{
-  padding: 0 120px 120px 120px;
+  padding: 0 120px 0 120px;
   max-width: 1200px;
   
 }
@@ -218,8 +220,47 @@ main {
  line-height: 20px;
  
 }
+#brain-section{
+ 
+}
+.brain{
+  display: flex;
+  gap: 60px;
+  padding: 120px 0;
+}
+.brain-text{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 100px 0;
+}
+.brain-text h4{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #30B868;
+}
+.brain-text h3{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
 
+.brain-text ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: start;
 
-
+}
+.brain-text li{
+  font-size: 16px;
+  
+}
+.brain-text p{
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
 
 

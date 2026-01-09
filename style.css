@@ -91,10 +91,7 @@ main {
   font-weight: 500;
   cursor: pointer;
 }
-.access button:hover{
-  background-color: #a2d4b7;
-  color: white;
-}
+
 
 #main-container {
   display: flex;
@@ -102,8 +99,6 @@ main {
 }
 
 .banner {
-  justify-content: center;
-  align-content: center;
   text-align: center;
   margin-top: 16px;
 }
@@ -133,7 +128,9 @@ main {
 
 .banner-btn{
   margin-top: 32px;
+  display: inline-flex;
   justify-content: center;
+  gap: 16px;
 }
 .banner-btn button{
   display: inline-flex;
@@ -141,3 +138,88 @@ main {
   text-align: center;
   gap: 5px;
 }
+#see-through{
+  border: 1px solid white;
+  background: transparent;
+}
+#see-through:hover{
+   background-color: #2ecc71;
+}
+
+
+#note-section{
+  padding: 0 120px 120px 120px;
+  max-width: 1200px;
+  
+}
+
+.notes{
+  text-align: center;
+}
+.notes h2{
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 16px;
+  color: #001931;
+}
+.notes p{
+  color: #627382;
+  font-size: 15px;
+  font-weight: 250;
+  line-height: 20px;
+  margin-bottom: 44px;
+}
+.note-card{
+  display: flex;
+  gap: 24px;
+  width: 1000px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #F95555;
+  margin-top: 32px;
+}
+.icon img{
+  width: 32px;
+  height: 32px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 24px;
+  width: 400px;
+  height: 250px;
+  gap: 16px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 #00000010;
+}
+.cards h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #001931;
+}
+.cards p{
+ text-align: center;
+ font-size: 14px;
+ font-weight: 250;
+ color: #627382;
+ line-height: 20px;
+ 
+}
+
+
+
+
+

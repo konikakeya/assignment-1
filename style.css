@@ -63,6 +63,7 @@ main {
   background-size: cover;
   height: 600px;
   width: 1260px;
+  margin: 0 auto;
 }
 #main-container{
   text-align: center;
@@ -152,6 +153,7 @@ main {
 #note-section{
   padding: 0 120px 0 120px;
   max-width: 1200px;
+  margin: 0 auto;
   
 }
 
@@ -175,8 +177,9 @@ main {
 .note-card{
   display: flex;
   gap: 24px;
-  width: 1000px;
+  max-width: 1200px;
   height: 300px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 .icon{
@@ -199,15 +202,16 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 24px 24px;
-  width: 400px;
+  width: 600px;
   height: 250px;
   gap: 16px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 0 8px 0 #00000010;
+  margin: 0 auto;
 }
 .cards h3{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
   color: #001931;
@@ -220,13 +224,14 @@ main {
  line-height: 20px;
  
 }
-#brain-section{
- 
-}
+
 .brain{
   display: flex;
   gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 120px 0;
+  
 }
 .brain-text{
   display: flex;
@@ -263,4 +268,68 @@ main {
   margin-bottom: 40px;
 }
 
+.early-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0;
+  background-color: #F7F6F2;
+  border: none;
+  border-radius: 12px;
 
+}
+#early-access{
+  margin: 0 120px 120px 120px;
+}
+
+.title h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+}
+.title p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 16px;
+}
+.title button {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+footer{
+  background-color: #001931;
+  padding: 120px 30px 120px 120px;
+  
+
+}
+.footer-image{
+  display: flex;
+  justify-content: left;
+}
+.social{
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  
+  
+}
+.social h4{
+  color: white;
+}
+.social a{
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+.footer-bottom{
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
